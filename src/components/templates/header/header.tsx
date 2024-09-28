@@ -14,7 +14,7 @@ export const Header = () => {
         <Container className="flex items-center justify-between">
           <Link href="/" title={t('common.homepage')}>
             <Image
-              src="/png/logo.png" // Update the path to your image
+              src="/assets/png/logo.png" // Update the path to your image
               alt="Logo"
               width={66} // Specify the desired width
               height={35} // Specify the desired height
