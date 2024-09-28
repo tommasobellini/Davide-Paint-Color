@@ -13,12 +13,12 @@ export const Header = () => {
       <nav>
         <Container className="flex items-center justify-between">
           <Link href="/" title={t('common.homepage')}>
-          <Image
-            src="/images/logo.png" // Update the path to your image
-            alt="Logo"
-            width={66} // Specify the desired width
-            height={35} // Specify the desired height
-          />
+            <Image
+              src="/png/logo.png" // Update the path to your image
+              alt="Logo"
+              width={66} // Specify the desired width
+              height={35} // Specify the desired height
+            />
           </Link>
           <LanguageSelector />
         </Container>
